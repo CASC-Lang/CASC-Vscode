@@ -1,6 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "CASC",
+	"scopeName": "source.casc",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -12,7 +13,7 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.casc",
+				"name": "keyword.token",
 				"match": "\\b(if|while|for|return|真|true|假|false)\\b"
 			}]
 		},
@@ -27,6 +28,5 @@
 				}
 			]
 		}
-	},
-	"scopeName": ""
+	}
 }

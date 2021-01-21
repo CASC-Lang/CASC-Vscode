@@ -2,8 +2,12 @@
     "name": "casc-lang",
     "displayName": "CASC",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "publisher": "ChAoS-UnItY",
+    "icon": "icon.png",
+    "repository": {
+        "url": "https://github.com/CASC-Lang/CASC-Vscode"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -19,7 +23,7 @@
         }],
         "grammars": [{
             "language": "casc",
-            "scopeName": "",
+            "scopeName": "source.casc",
             "path": "./syntaxes/casc.tmLanguage.json"
         }]
     }
