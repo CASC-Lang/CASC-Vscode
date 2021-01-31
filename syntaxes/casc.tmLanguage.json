@@ -14,11 +14,11 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.token",
-				"match": "\\b(if|while|for|return|真|true|假|false)\\b"
+				"match": "\\b(函式|func|如果|若|if|否則|else|當|while|從|for|到|to|持續|do|返回|return|嘗試|try|抓取|catch|跳離|break|繼續|continue|讓|使|let|變數|變值|var|終值|val|真|true|假|false)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.casc",
+			"name": "string.quoted.double",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [

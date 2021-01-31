@@ -1,2 +1,5 @@
-真 
-""
+func fab(a: number): number {
+    if a == 0 || a == 1
+        return a
+    return fab(a - 1) + fab(a - 2)
+}
